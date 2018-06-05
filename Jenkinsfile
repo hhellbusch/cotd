@@ -1,6 +1,5 @@
 node {
   sh("whoami")
-  sh("docker version")
   sh("kubectl version")
   sh("echo BRANCH_NAME=${env.BRANCH_NAME}")
   sh("echo BUILD_NUMBER=${env.BUILD_NUMBER}")
